@@ -1,0 +1,79 @@
+/* CHATBOX
+=============== */
+
+.chatbox {
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    top: 40px;
+    left:0px;
+    background-image: url("money.jpg");
+
+}
+
+/* CONTENT IS CLOSE */
+.chatbox__support {
+    display: flex;
+    flex-direction: column;
+    background-image: url("images1.jpg");
+    width: 300px;
+    text-align: center;
+    height: 550px;
+    border-radius: 20px;
+    margin-left: 1000px;
+
+}
+/* HEADER */
+.chatbox__header {
+
+  background-image: url("download.jpg");
+    height: 60px;
+    border-radius: 20px 20px 0px 0px;
+    font-size: 30px;
+    font-family: fantasy;
+
+
+}
+
+/* MESSAGES */
+.chatbox__messages {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    flex-direction: column-reverse;
+}
+
+.messages__item {
+    border-radius: 20px 0px 20px 0px;
+    background-color: #C2F784;
+    max-width: 60.6%;
+    width: fit-content;
+    font-family: cursive;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.messages__item--operator {
+    margin-left: auto;
+}
+
+.messages__item--visitor {
+    margin-right: auto;
+}
+
+/* FOOTER */
+.chatbox__footer {
+    position: sticky;
+    bottom: 0;
+    background-image: url("download.jpg");
+    border-radius: 0px 0px 20px 20px;
+    height: 50px;
+}
+
+#input_box{
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 20px;
+  height: 20px;
+}
