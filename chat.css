@@ -1,37 +1,145 @@
-/* CHATBOX
-=============== */
 
-.chatbox {
-    position: absolute;
-    bottom: 30px;
-    right: 50px;
-    top: 40px;
-    left:0px;
-    background-image: url("money.jpg");
+
+body{
+  background-color:#E8F6EF;
+
+}
+#images{
+  margin-left:0px;
 
 }
 
 /* CONTENT IS CLOSE */
+.navbar{
+  margin-left: 50px;
+  display: flex;
+  position:fixed;
+  width: 1200px;
+  height: 60px;
+  opacity: 1;
+  border-radius: 10px;
+  box-shadow: 5px 10px 18px #888888;
+
+
+}
+#navbarbutton{
+  margin-top: 10px;
+  margin-left: 20px;
+  border-radius: 10px;
+  width:70px;
+  height: 30px;
+  border: hidden;
+  background-color: #80ED99;
+  box-shadow: 5px 10px 18px #888888;
+}
+#navbarbuttonsignup{
+  margin-top:10px;
+  border-radius: 10px;
+  width:100px;
+  height: 30px;
+  margin-left: 900px;
+  border: hidden;
+  background-color: #80ED99;
+  box-shadow: 5px 10px 18px #888888;
+}
+#navbarbuttonlogin{
+  margin-top:10px;
+  border-radius: 10px;
+  width:100px;
+  height: 30px;
+  margin-left: 1000px;
+  border: hidden;
+  background-color: #80ED99;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.login{
+  display: flex;
+  position:fixed;
+  flex-direction: column;
+  background-image:url("bussiness.jpg");
+  width: 700px;
+  margin-top: 50px;
+  margin-left: 50px;
+  height: 475px;
+  right:600px;
+  bottom: 70px;
+  opacity: 1;
+  border-radius: 10px;
+  box-shadow: 5px 10px 18px #888888;
+
+
+}
+#Email{
+     margin-left: 40px;
+     margin-top:150px;
+     height: 50px;
+     width:350px;
+     border-radius: 10px;
+     border-color: #0080ff;
+     text-align: center;
+     font-size: 15px;
+}
+#password{
+  margin-left: 40px;
+  margin-top:10px;
+  height: 50px;
+  width:350px;
+  border-radius: 10px;
+  border-color: #0080ff;
+  text-align: center;
+   font-size: 15px;
+}
+#submit{
+
+  margin-top: 430px;
+  height: 80px;
+  width:700px;
+  background-color: #0080ff;
+  color: white;
+  border-radius: 10px 10px 10px 10px;
+  border-color: #0080ff;
+   font-size: 15px;
+
+}
 .chatbox__support {
+
     display: flex;
+    position: fixed;
     flex-direction: column;
-    background-image: url("images1.jpg");
-    width: 300px;
-    text-align: center;
-    height: 550px;
-    border-radius: 20px;
+    background-color: white;
+    width: 350px;
     margin-left: 1000px;
+    height: 475px;
+    right:100px;
+    bottom: 70px;
+    opacity: 0;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px #888888;
 
 }
 /* HEADER */
 .chatbox__header {
 
-  background-image: url("download.jpg");
-    height: 60px;
-    border-radius: 20px 20px 0px 0px;
-    font-size: 30px;
+    background-image: url("image10.jpg");
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
     font-family: fantasy;
 
+}
+#firstmessage{
+  font-size:30px;
+  color: black;
+  padding: none;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+#secondheading{
+  font-size:20px;
+  color: black;
+  margin-left: 50px;
+  margin-top: 3px;
+  opacity: 0.6;
 
 }
 
@@ -65,15 +173,40 @@
 /* FOOTER */
 .chatbox__footer {
     position: sticky;
-    bottom: 0;
-    background-image: url("download.jpg");
-    border-radius: 0px 0px 20px 20px;
-    height: 50px;
-}
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    height: 60px;
 
+}
+.chatbox__button
+{ background-image:url("logo1.png");
+  position: fixed;
+  top: 500px;
+  bottom:10px;
+  right:20px;
+  width: 75px;
+  height:75px;
+  cursor: pointer;
+
+}
+#sendbutton{
+  border-radius: 10px;
+  width:50px;
+  height: 30px;
+  border: hidden;
+}
 #input_box{
-  text-align: center;
-  margin-top: 10px;
-  border-radius: 20px;
-  height: 20px;
+  color: black;
+  border: hidden;
+  background-color: white;
+  font-family: serif;
+  font-size: 15px;
+  text-align:left;
+  margin-left: 20px;
+  margin-top: 5px;
+
+  height: 30px;
+  width: 250px;
+
+
 }
