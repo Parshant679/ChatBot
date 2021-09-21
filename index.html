@@ -8,11 +8,12 @@
 
 </head>
 <body>
-  <div class="navbar"><h>
-  <button id = "navbarbutton">Home</button>
+  <div class="navbar">
+<button id = "navbarbutton">Home</button>
 <button id = "navbarbutton">About</button>
-<button id = "navbarbuttonsignup">Signup</button></div>
-<button id = "navbarbuttonlogin">Login</button></div>
+<button id = "navbarbuttonlogin">Login</button>
+<button id = "navbarbuttonsignup">Signup</button>
+</div>
     <div class="login">
 
       <button id = "submit">click here to chat..</button>
@@ -37,15 +38,21 @@
             <hr>
             <div class="chatbox__footer">
                 <input id="input_box" type="text" placeholder="Send a message...">
+                <input id = voiceinput onclick="startDictation()">
                 <button id = "sendbutton">send</button>
+
+
+
+
             </div>
 
           </div>
           <div class="chatbox__button">
 
           </div>
+
         </div>
-      </div>
+
 
 
 
@@ -53,6 +60,7 @@
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
       <script src="chat.js"></script>
+
 
 </body>
 </html>

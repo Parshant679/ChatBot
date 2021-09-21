@@ -12,3 +12,23 @@ $("#submit").click(function()
   }
 
 });
+var recognition = new webkitSpeechRecognition();
+
+recognition.continuous = false;
+recognition.interimResults = false;
+
+recognition.lang = "en-US";
+
+function startDictation() {
+
+    recognition.start();
+
+}
+recognition.onresult = function(e) {
+      document.getElementById('input_box').value = e.results[0][0].transcript;
+      recognition.stop();
+
+}
+recognition.onerror = function(e) {
+      recognition.stop();
+    }
